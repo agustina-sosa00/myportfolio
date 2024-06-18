@@ -1,0 +1,296 @@
+#container-principal {
+  width: 1200px;
+  height: 90vh;
+  /* background-color: aquamarine; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#container-principal .caja1 {
+  width: 600px;
+  /* margin: 0 auto; */
+  height: auto;
+  display: flex;
+  align-items: center;
+  border-radius: 350px;
+  overflow: hidden;
+}
+
+#container-principal .caja1 .caja-img {
+  width: 350px;
+  height: 450px;
+  background-color: black;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 250px;
+  border-bottom: 15px solid white;
+  border-top: 15px solid white;
+  border-left: 10px solid #0882a4;
+  border-right: 10px solid #0882a4;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+  transition: 1s;
+}
+.caja-img:hover {
+  transform: scale(1.05);
+  border-bottom: 25px solid white !important;
+  border-top: 25px solid white !important;
+  border-left: 20px solid brown !important;
+  border-right: 20px solid brown !important;
+  box-shadow: 20px 20px 25px rgba(0, 0, 0, 0.7) !important;
+}
+#container-principal .caja1 .caja-img img {
+  width: 350px;
+  height: 450px;
+}
+
+#container-principal .caja2 {
+  width: 600px;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+#container-principal .caja2 .container-text {
+  width: 550px;
+  height: 65vh;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+  transition: 1s;
+}
+.container-text:hover {
+  border-radius: 50px !important;
+  background-color: white !important;
+  transform: scale(1.05);
+  box-shadow: -20px 20px 25px rgba(0, 0, 0, 0.7) !important;
+}
+#container-principal .caja2 .container-text .caja-title {
+  width: 500px;
+  height: 10vh;
+  margin: 0 auto;
+  position: relative;
+  top: 40px;
+}
+.container-text .caja-title h2 {
+  font-size: 20px;
+  color: rgb(8, 133, 142);
+  padding: 5px;
+  letter-spacing: 3px;
+  font-weight: 800;
+  text-align: center;
+  font-family: "Anek Tamil, sans-serif";
+}
+.container-text .caja-title h2 span {
+  font-size: 25px;
+  color: brown;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  letter-spacing: 5px;
+}
+.container-text .caja-title h3 {
+  font-size: 20px;
+  color: rgb(8, 133, 142);
+  text-transform: capitalize;
+  padding: 5px;
+  letter-spacing: 3px;
+  font-weight: 800;
+  text-align: center;
+}
+.container-text .caja-parrafo {
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  top: 40px;
+}
+.container-text .caja-parrafo p {
+  font-size: 18px;
+  color: rgb(68, 66, 66);
+  text-transform: capitalize;
+  font-weight: 300;
+  text-align: center;
+  line-height: 30px;
+}
+
+
+/* responsi */ /* responsi */ /* responsi */ /* responsi */ /* responsi */ /* responsi */ /* responsi */ /* responsi */ /* responsi */ /* responsi */ /* responsi */ /* responsi */ /* responsi */ /* responsi */
+
+@media all and (min-width:801px) and (max-width:1300px){
+  
+  #cabecera{
+    width: 100%;
+  }
+  
+  
+  #container-principal {
+    width: 100%;
+    height: 100vh;
+  }
+
+  #container-principal .caja1 {
+    width: 30%;
+   
+  }
+  
+  #container-principal .caja1 .caja-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #container-principal .caja1 .caja-img img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #container-principal .caja2 {
+    width: 65%;
+  }
+  #container-principal .caja2 .container-text{
+height: 350px;  }
+
+
+  
+}
+
+
+@media all and (min-width: 600px) and (max-width: 800px) {
+  #cabecera{
+    width: 100%;
+  }
+  
+  #container-principal {
+    width: 90%;
+    height: 90vh;
+  }
+
+  #container-principal .caja1 {
+    width: 30%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    border-radius: 350px;
+    overflow: hidden;
+  }
+  
+  #container-principal .caja1 .caja-img {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  #container-principal .caja1 .caja-img img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #container-principal .caja2 {
+    width: 70%;
+    height: auto;
+  }
+  
+  #container-principal .caja2 .container-text {
+    width: 90%;
+    height: 53vh;    
+  }
+  
+  #container-principal .caja2 .container-text .caja-title {
+    width: 90%;
+    height: 10vh;
+    top: 40px;
+  }
+
+  .container-text .caja-title h2 {
+    font-size: 20px;
+  }
+
+  .container-text .caja-title h2 span {
+    font-size: 25px;
+  }
+
+  .container-text .caja-title h3 {
+    font-size: 20px;
+  }
+
+  .container-text .caja-parrafo {
+    width: 90%;
+    top: 70px;
+  }
+
+  .container-text .caja-parrafo p {
+    font-size: 16px;
+   
+  }
+
+  #pie p{
+    font-size: 15px;
+  }
+}
+
+@media all and (max-width: 599px) {
+  #container-principal {
+    width: 100%;
+    height: 170vh;
+    flex-direction: column;
+  }
+  #container-principal .caja1 {
+    width: 90%;
+ 
+  }
+  
+  #container-principal .caja1 .caja-img {
+    width: 250px;
+    height: 350px;
+    
+  }
+ 
+  #container-principal .caja1 .caja-img img {
+    width: 250px;
+    height: 350px;
+  }
+  
+  /* caja2 */
+  #container-principal .caja2 {
+    width: 90%;
+  }
+  
+  #container-principal .caja2 .container-text {
+    width: 100%; /**/
+    height: 85vh; /**/
+  }
+  
+
+  #container-principal .caja2 .container-text .caja-title {
+    width: 100%;
+    height: 10vh;
+   
+  }
+
+  .container-text .caja-title h2 {
+    font-size: 18px; 
+  }
+
+  .container-text .caja-title h2 span {
+    font-size: 20px;
+  }
+
+  .container-text .caja-title h3 {
+    font-size: 17px;
+  }
+  .container-text .caja-parrafo {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    top: 60px;
+  }
+
+  .container-text .caja-parrafo p {
+    font-size: 17px;
+}
+
+#pie p{
+  font-size: 15px;
+}
+}

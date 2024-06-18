@@ -1,0 +1,474 @@
+@media all and (min-width:1201px) {
+  #sec1{
+    width: 100%;
+    /* height: 500px; */
+  }
+  
+  .container-general{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .caja1{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    transition: 1s;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .caja1:hover{
+    transform: scale(1.05);
+    border-radius: 20px !important;
+    background-color: white !important;
+    box-shadow: 0px 0px 55px black !important;
+  }
+
+  .img-caja1{
+    width: 380px;
+    height: 230px;
+    background-color: aquamarine;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  .subcaja-caja1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+
+  .title-caja1{
+    font-size: 40px;
+    font-family: "Anek Tamil, sans-serif";
+  }
+
+  .parrafo-caja1{
+    text-align: center;
+    font-family: "Anek Tamil, sans-serif";
+    font-size: 23px;
+  }
+
+  .boton-caja1{
+    width: 150px;
+    height: 50px;
+    background-color: #cf7a84;
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .boton-caja1 a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+  }
+  .boton-caja1:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #af5f68;
+  }
+  
+}
+
+/* ----------------------------------- */
+
+@media all and (min-width:1001px) and (max-width: 1200px) {
+  #sec1{
+    width: 100%;
+    /* height: 500px; */
+  }
+  
+  .container-general{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .caja1{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    transition: 1s;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .caja1:hover{
+    transform: scale(1.05);
+    border-radius: 20px !important;
+    background-color: white !important;
+    box-shadow: 0px 0px 55px black !important;
+  }
+
+  .img-caja1{
+    width: 350px;
+    height: 200px;
+    background-color: aquamarine;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  .subcaja-caja1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+
+  .title-caja1{
+    font-size: 40px;
+    font-family: "Anek Tamil, sans-serif";
+  }
+
+  .parrafo-caja1{
+    text-align: center;
+    font-family: "Anek Tamil, sans-serif";
+    font-size: 23px;
+  }
+
+  .boton-caja1{
+    width: 150px;
+    height: 50px;
+    background-color: #cf7a84;
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .boton-caja1 a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+  }
+  .boton-caja1:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #af5f68;
+  }
+  
+}
+
+/* -------------------------------------- */
+
+@media all and (min-width:761px) and (max-width: 1000px) {
+  #sec1{
+    width: 100%;
+    /* height: 500px; */
+  }
+  
+  .container-general{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .caja1{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    transition: 1s;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .caja1:hover{
+    transform: scale(1.05);
+    border-radius: 20px !important;
+    background-color: white !important;
+    box-shadow: 0px 0px 55px black !important;
+  }
+
+  .img-caja1{
+    width: 350px;
+    height: 200px;
+    background-color: aquamarine;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  .subcaja-caja1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+
+  .title-caja1{
+    font-size: 40px;
+    font-family: "Anek Tamil, sans-serif";
+  }
+
+  .parrafo-caja1{
+    text-align: center;
+    font-family: "Anek Tamil, sans-serif";
+    font-size: 23px;
+  }
+
+  .boton-caja1{
+    width: 150px;
+    height: 50px;
+    background-color: #cf7a84;
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .boton-caja1 a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+  }
+  .boton-caja1:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #af5f68;
+  }
+  
+}
+
+/* ------------------------------------ */
+
+@media all and (min-width:501px) and (max-width: 760px) {
+  #sec1{
+    width: 100%;
+    /* height: 500px; */
+  }
+  
+  .container-general{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .caja1{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    transition: 1s;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .caja1:hover{
+    transform: scale(1.05);
+    border-radius: 20px !important;
+    background-color: white !important;
+    box-shadow: 0px 0px 55px black !important;
+  }
+
+  .img-caja1{
+    width: 300px;
+    height: 150px;
+    background-color: aquamarine;
+    margin: 10px;
+    border-radius: 10px;
+  }
+
+  .subcaja-caja1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  
+  .title-caja1{
+    font-size: 38px;
+    font-family: "Anek Tamil, sans-serif";
+  }
+
+  .parrafo-caja1{
+    text-align: center;
+    font-family: "Anek Tamil, sans-serif";
+    font-size: 20px;
+  }
+
+  .boton-caja1{
+    width: 100px;
+    height: 30px;
+    background-color: #cf7a84;
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .boton-caja1 a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+  }
+  .boton-caja1:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #af5f68;
+  }
+  
+}
+
+/* ------------------------------------ */
+
+@media all and (max-width:500px){
+  #sec1{
+    width: 100%;
+    /* height: 500px; */
+  }
+  
+  .container-general{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .caja1{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    transition: 1s;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .caja1:hover{
+    transform: scale(1.05);
+    border-radius: 20px !important;
+    background-color: white !important;
+    box-shadow: 0px 0px 55px black !important;
+  }
+
+  .img-caja1{
+    width: 200px;
+    height: 90px;
+    background-color: aquamarine;
+    margin: 10px;
+    border-radius: 10px;
+  }
+
+  .subcaja-caja1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .title-caja1{
+    font-size: 35px;
+    font-family: "Anek Tamil, sans-serif";
+  }
+
+  .parrafo-caja1{
+    text-align: center;
+    font-family: "Anek Tamil, sans-serif";
+    font-size: 18px;
+  }
+
+  .boton-caja1{
+    width: 100px;
+    height: 30px;
+    background-color: #cf7a84;
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .boton-caja1 a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+  }
+  .boton-caja1:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #af5f68;
+  }
+  
+}
